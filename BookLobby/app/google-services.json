@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "646872603487",
+    "firebase_url": "https://booklobby-6ff3a.firebaseio.com",
+    "project_id": "booklobby-6ff3a",
+    "storage_bucket": "booklobby-6ff3a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:646872603487:android:b5000b9bab771caa",
+        "android_client_info": {
+          "package_name": "com.example.acer.booklobby"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "646872603487-2n5b621msl055udlops617oj5b0oismc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaZt4XCBnrtN4w9FHRc2tIqDdvEk3eSyE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

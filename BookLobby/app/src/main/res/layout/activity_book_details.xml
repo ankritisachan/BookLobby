@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@drawable/b1">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingRight="18dp"
+        >
+
+        <ImageView
+            android:id="@+id/bookImage"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="32dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="18dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="195dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="BOOK NAME "
+                    android:fontFamily="abhaya libre"
+                    android:textSize="11dp"
+                    android:textColor="@color/btn_login"
+                    />
+
+                <TextView
+                    android:paddingTop="2dp"
+                    android:id="@+id/bookName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="To be filled "
+                    android:fontFamily="acme"
+                    android:textSize="17dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:orientation="vertical"
+                android:paddingTop="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="BOOK AUTHOR'S NAME "
+                    android:fontFamily="abhaya libre"
+                    android:textSize="11dp"
+                    android:textColor="@color/btn_login"/>
+
+                <TextView
+                    android:id="@+id/authorName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="To be filled "
+                    android:paddingTop="2dp"
+                    android:fontFamily="acme"
+                    android:textSize="17dp"/>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:orientation="vertical"
+                android:paddingTop="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="BOOK OWNER'S EMAIL "
+                    android:fontFamily="abhaya libre"
+                    android:textSize="11dp"
+                    android:textColor="@color/btn_login"/>
+
+                <TextView
+                    android:id="@+id/ownerEmail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="To be filled "
+                    android:paddingTop="2dp"
+                    android:fontFamily="acme"
+                    android:textSize="17dp"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:orientation="vertical"
+                android:paddingTop="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MAXIMUM RENT DURATION "
+                    android:fontFamily="abhaya libre"
+                    android:textSize="11dp"
+                    android:textColor="@color/btn_login"/>
+
+                <TextView
+                    android:id="@+id/rentDays"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="To be filled "
+                    android:paddingTop="2dp"
+                    android:fontFamily="acme"
+                    android:textSize="17dp"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:orientation="vertical"
+                android:paddingTop="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="RENT RATE "
+                    android:fontFamily="abhaya libre"
+                    android:textSize="11dp"
+                    android:textColor="@color/btn_login"
+                    />
+
+                <TextView
+                    android:id="@+id/rentRate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="To be filled "
+                    android:paddingTop="2dp"
+                    android:fontFamily="acme"
+                    android:textSize="17dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:orientation="vertical"
+                android:paddingTop="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DUE DATE  "
+                    android:fontFamily="abhaya libre"
+                    android:textSize="11dp"
+                    android:textColor="@color/btn_login"
+                    android:visibility="gone"
+                    android:id="@+id/labelDueDate"/>
+
+                <TextView
+                    android:id="@+id/dueDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="To be filled "
+                    android:paddingTop="2dp"
+                    android:fontFamily="acme"
+                    android:textSize="17dp"
+                    android:visibility="gone"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:orientation="vertical"
+                android:paddingTop="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ONE TIME PASSWORD "
+                    android:fontFamily="abhaya libre"
+                    android:textSize="11dp"
+                    android:textColor="@color/btn_login"
+                    android:visibility="gone"
+                    android:id="@+id/labelOTP"/>
+
+                <TextView
+                    android:id="@+id/otp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="To be filled "
+                    android:paddingTop="2dp"
+                    android:fontFamily="acme"
+                    android:textSize="17dp"
+                    android:visibility="gone"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingTop="35dp"
+                android:paddingBottom="20dp"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/borrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  Borrow  Book  "
+                    android:background="@color/colorPrimary"
+                    android:textColor="@color/white"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+</ScrollView>

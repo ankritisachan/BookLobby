@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:elevation="12dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="150dp"
+            android:scaleType="fitXY"
+            android:id="@+id/bookImage"
+            android:src="@drawable/test"
+            android:clickable="true"/>
+        <Button
+            android:id="@+id/deleteBook"
+            android:layout_width="33dp"
+            android:layout_height="24dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/book_remove"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Test text"
+        android:padding="5dp"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:id="@+id/bookName"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/ic_profile"
+        android:title="Profile"
+        >
+    </item>
+
+    <item
+        android:id="@+id/manage"
+        android:icon="@drawable/ic_book"
+        android:title="Manage My Books"
+        >
+    </item>
+    <item
+        android:id="@+id/lent_book"
+        android:icon="@drawable/ic_lent"
+        android:title="Lent Books"
+        >
+    </item>
+    <item
+        android:id="@+id/borrowed_book"
+        android:icon="@drawable/ic_borrow"
+        android:title="Borrowed Books"
+        >
+    </item>
+
+    <item
+        android:id="@+id/notification"
+        android:icon="@drawable/ic_notifications"
+        android:title="Notifications"
+
+        >
+    </item>
+
+    <item
+        android:id="@+id/change_password"
+        android:icon="@drawable/ic_password"
+        android:title="Change Password"
+        >
+    </item>
+
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/ic_logout"
+        android:title="LogOut"
+        >
+    </item>
+</menu>
